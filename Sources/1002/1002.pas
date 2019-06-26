@@ -1,0 +1,48 @@
+(*
+ *  BOJ 1002번 Pascal 소스 코드
+ *  작성자 : 동동매니저 (DDManager)
+ *
+ *  ※ 실행 결과
+ *  사용 메모리 : 340 KB / 131,072 KB
+ *  소요 시간 : 0 ms / 2,000 ms
+ *
+ *  Copyright 2019. DDManager all rights reserved.
+ *)
+
+VAR T,X1,Y1,R1,X2,Y2,R2:LONGINT;
+VAR LOOP:LONGINT;
+FUNCTION CALC(X1,Y1,R1,X2,Y2,R2:LONGINT):INTEGER;
+VAR XX,YY,RR,DIST:LONGINT;
+LABEL QUIT;
+BEGIN
+	CALC:=0;
+	XX:=X2-X1;
+	YY:=Y2-Y1;
+	RR:=SQR(R1+R2);
+	DIST:=XX*XX+YY*YY;
+	IF DIST=0 THEN
+	BEGIN
+		IF R1=R2 THEN CALC:=-1;
+		GOTO QUIT;
+	END
+	ELSE
+	BEGIN
+		IF (DIST<RR)AND(DIST>SQR(R2-R1))THEN
+		BEGIN
+			CALC:=2; GOTO QUIT;
+		END;
+		IF (DIST=RR)OR(DIST=SQR(R2-R1))THEN
+		BEGIN
+			CALC:=1; GOTO QUIT;
+		END;
+	END;
+	QUIT:
+END;
+BEGIN
+	READ(T);
+	FOR LOOP:=1 TO T DO
+	BEGIN
+		READ(X1,Y1,R1,X2,Y2,R2);
+		WRITELN(CALC(X1,Y1,R1,X2,Y2,R2));
+	END;
+END.
