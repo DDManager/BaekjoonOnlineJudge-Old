@@ -1,5 +1,5 @@
 ##
-#  BOJ 1000번 Pascal 소스 코드
+#  BOJ 1000번 Python 3 소스 코드
 #  작성자 : 동동매니저 (DDManager)
 #
 #  ※ 실행 결과
