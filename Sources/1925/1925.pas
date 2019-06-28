@@ -1,0 +1,52 @@
+(*
+ *  BOJ 1925번 Pascal 소스 코드
+ *  작성자 : 동동매니저 (DDManager)
+ *
+ *  ※ 실행 결과
+ *  사용 메모리 : 340 KB / 131,072 KB
+ *  소요 시간 : 0 ms / 2,000 ms
+ *
+ *  Copyright 2019. DDManager all rights reserved.
+ *)
+
+VAR X1,Y1,X2,Y2,X3,Y3,AX,BX,CX,AY,BY,CY,AD,BD,CD,MAX,S:LONGINT;
+VAR DMAX,DS:DOUBLE;
+FUNCTION FC(A,B:DOUBLE):BOOLEAN;
+BEGIN
+	FC:=ABS(A-B)<0.000001;
+END;
+BEGIN
+	MAX:=0;
+	READ(X1,Y1);
+	READ(X2,Y2);
+	READ(X3,Y3);
+	AX:=X1-X2;
+	AY:=Y1-Y2;
+	BX:=X2-X3;
+	BY:=Y2-Y3;
+	CX:=X3-X1;
+	CY:=Y3-Y1;
+	AD:=AX*AX+AY*AY;
+	BD:=BX*BX+BY*BY;
+	CD:=CX*CX+CY*CY;
+	S:=AD+BD+CD;
+	DS:=SQRT(AD)+SQRT(BD)+SQRT(CD);
+	IF MAX<AD THEN MAX:=AD;
+	IF MAX<BD THEN MAX:=BD;
+	IF MAX<CD THEN MAX:=CD;
+	DMAX:=SQRT(MAX);
+	IF FC(DMAX,DS-DMAX) THEN WRITELN('X')
+	ELSE IF (AD=BD)AND(BD=CD) THEN WRITELN('JungTriangle')
+	ELSE IF (AD=BD)OR(BD=CD)OR(AD=CD) THEN
+	BEGIN
+		IF (MAX>S-MAX) THEN WRITELN('Dunkak2Triangle')
+		ELSE IF (MAX<S-MAX) THEN WRITELN('Yeahkak2Triangle')
+		ELSE WRITELN('Jikkak2Triangle');
+	END
+	ELSE
+	BEGIN
+		IF (MAX>S-MAX) THEN WRITELN('DunkakTriangle')
+		ELSE IF (MAX<S-MAX) THEN WRITELN('YeahkakTriangle')
+		ELSE WRITELN('JikkakTriangle');
+	END;
+END.
