@@ -1,0 +1,19 @@
+##
+#  BOJ 9654번 Text 소스 코드
+#  작성자 : 동동매니저 (DDManager)
+#
+#  ※ 실행 결과
+#  사용 메모리 : 4,532 KB / 131,072 KB
+#  소요 시간 : 0 ms / 1,000 ms
+#
+#  Copyright 2019. DDManager all rights reserved.
+##
+
+=== 코드 시작 부분 ===
+SHIP NAME      CLASS          DEPLOYMENT IN SERVICE
+N2 Bomber      Heavy Fighter  Limited    21        
+J-Type 327     Light Combat   Unlimited  1         
+NX Cruiser     Medium Fighter Limited    18        
+N1 Starfighter Medium Fighter Unlimited  25        
+Royal Cruiser  Light Combat   Limited    4         
+=== 코드 종료 부분 ===
