@@ -1,0 +1,26 @@
+##
+#  BOJ 10170번 Text 소스 코드
+#  작성자 : 동동매니저 (DDManager)
+#
+#  ※ 실행 결과
+#  사용 메모리 : 4,532 KB / 262,144 KB
+#  소요 시간 : 0 ms / 1,000 ms
+#
+#  Copyright 2019. DDManager all rights reserved.
+##
+
+=== 코드 시작 부분 ===
+NFC West       W   L  T
+-----------------------
+Seattle        13  3  0
+San Francisco  12  4  0
+Arizona        10  6  0
+St. Louis      7   9  0
+
+NFC North      W   L  T
+-----------------------
+Green Bay      8   7  1
+Chicago        8   8  0
+Detroit        7   9  0
+Minnesota      5  10  1
+=== 코드 종료 부분 ===
