@@ -21,6 +21,10 @@ Baekjoon OJ 전체 언어 소스 코드
 
 주석이 없어도 이해해주세요.
 
+<b>※ 필자의 BOJ 통계 보기</b>
+
+[Google 스프레드시트](https://docs.google.com/spreadsheets/d/1l-qqwQ--xb_Q4HubXN1MWE_UZC3OMjQ6u-pxHSj5USM/edit?usp=sharing)
+
 <b>※ 구성</b>
 
 <b>★ Sources</b> : 각 문제 별 소스 코드가 들어있는 폴더
