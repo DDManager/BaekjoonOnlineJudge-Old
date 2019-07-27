@@ -23,7 +23,21 @@ Baekjoon OJ 전체 언어 소스 코드
 
 <b>※ 필자의 BOJ 통계 보기</b>
 
-[Google 스프레드시트](https://docs.google.com/spreadsheets/d/1l-qqwQ--xb_Q4HubXN1MWE_UZC3OMjQ6u-pxHSj5USM/edit?usp=sharing)
+[전체 언어](https://docs.google.com/spreadsheets/d/1l-qqwQ--xb_Q4HubXN1MWE_UZC3OMjQ6u-pxHSj5USM/edit?usp=sharing)
+
+[C](https://docs.google.com/spreadsheets/d/12FKbYBZWQt6AcMYe_mkSz_T055gqgrB49UqxQpMYD0U/edit?usp=sharing)
+
+[C++](https://docs.google.com/spreadsheets/d/1mNzcSU52zFYIXZzvTPkJ5JCWMynqdHYZZV73rcwr4OI/edit?usp=sharing)
+
+[Java](https://docs.google.com/spreadsheets/d/1uYAPGRkw5p8xRMqKb1Yy91Q46NqGrPbwaRRvrpJU0fg/edit?usp=sharing)
+
+[Python 3](https://docs.google.com/spreadsheets/d/17uMOqRO6RH_86E31NZhFC7iiPBZwgI4629TrnDm0Jbw/edit?usp=sharing)
+
+[Pascal](https://docs.google.com/spreadsheets/d/1O2GeUl5oVH5rhwHcPYUJmcOCajLRtYLsGK-CsM5euVw/edit?usp=sharing)
+
+[Text](https://docs.google.com/spreadsheets/d/1iORgRrn5epUpY2ykvzciZdhFYa2VUWSZqOo_cGiza2I/edit?usp=sharing)
+
+[Kotlin (Native)](https://docs.google.com/spreadsheets/d/1RDnuSGkGkWqoOhvGuXmu-ORHotfABpMQptLCh-iWkuw/edit?usp=sharing)
 
 <b>※ 구성</b>
 
