@@ -4,7 +4,7 @@
  *
  *  ※ 실행 결과
  *  사용 메모리 : 1,116 KB / 262,144 KB
- *  소요 시간 : 4 ms / 1,000 ms
+ *  소요 시간 : 0 ms / 500 ms
  *
  *  Copyright 2019. DDManager all rights reserved.
  */
