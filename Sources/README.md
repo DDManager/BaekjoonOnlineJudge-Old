@@ -20,10 +20,10 @@ Baekjoon OJ 전체 언어 소스 코드
 
 <b>※ 구성</b>
 
+문제 번호 대역은 1000 단위로 하였습니다.
+
 하나의 문제 번호 폴더에 전체 언어의 소스 파일로 구성 (단, 정답이 주기적으로 바뀌는 문제는 예외)
 
 (실행 결과를 소스 파일에 주석으로 넣을 예정!)
 
-(단, 언어의 특성으로 주석을 넣을 수 없으면, EXEC_RESULT.md 파일에 별도 첨부)
-
-Copyright 2019. DDManager all rights reserved.
+Copyright 2019-2020. DDManager all rights reserved.

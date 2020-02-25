@@ -25,28 +25,12 @@ Baekjoon OJ 전체 언어 소스 코드
 
 [전체 언어](https://docs.google.com/spreadsheets/d/1l-qqwQ--xb_Q4HubXN1MWE_UZC3OMjQ6u-pxHSj5USM/edit?usp=sharing)
 
-[C](https://docs.google.com/spreadsheets/d/12FKbYBZWQt6AcMYe_mkSz_T055gqgrB49UqxQpMYD0U/edit?usp=sharing)
-
-[C++](https://docs.google.com/spreadsheets/d/1mNzcSU52zFYIXZzvTPkJ5JCWMynqdHYZZV73rcwr4OI/edit?usp=sharing)
-
-[Java](https://docs.google.com/spreadsheets/d/1uYAPGRkw5p8xRMqKb1Yy91Q46NqGrPbwaRRvrpJU0fg/edit?usp=sharing)
-
-[Python 3](https://docs.google.com/spreadsheets/d/17uMOqRO6RH_86E31NZhFC7iiPBZwgI4629TrnDm0Jbw/edit?usp=sharing)
-
-[Pascal](https://docs.google.com/spreadsheets/d/1O2GeUl5oVH5rhwHcPYUJmcOCajLRtYLsGK-CsM5euVw/edit?usp=sharing)
-
-[Text](https://docs.google.com/spreadsheets/d/1iORgRrn5epUpY2ykvzciZdhFYa2VUWSZqOo_cGiza2I/edit?usp=sharing)
-
-[Kotlin (Native)](https://docs.google.com/spreadsheets/d/1RDnuSGkGkWqoOhvGuXmu-ORHotfABpMQptLCh-iWkuw/edit?usp=sharing)
-
 <b>※ 구성</b>
 
 <b>★ Sources</b> : 각 문제 별 소스 코드가 들어있는 폴더
 
 (단, 정답이 매번 바뀌는 문제, 스포일러(?)가 있는 코드 등은 예외)
 
-(하위 폴더가 많은 관계로, Ctrl+F를 이용해서 문제 번호를 찾아주세요.)
+(하위 폴더가 많은 관계로, 문제 번호 대역별로 구분하였습니다.)
 
-(나중에 하위 폴더의 개수가 많아지면, 문제 별 링크를 PROBLEMS.md 파일에 첨부할 예정!)
-
-Copyright 2019. DDManager all rights reserved.
+Copyright 2019-2020. DDManager all rights reserved.
